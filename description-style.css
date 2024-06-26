@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('mainbody.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid #007BFF;
+    background-color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 30px;
+}
+
+.menu2 {
+    margin-top: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+#description-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 50px;
+    padding-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    margin: 30px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+#content h1, #content h2 {
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#content pre {
+    background-color: #ECECFF;
+    color: #1C1CB9;
+    padding: 10px;
+    border-radius: 50px;
+    overflow-x: auto;
+}
+
+#content code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-width: 800px; 
+    border-radius: 70px;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid #007BFF;
+    border-radius: 30px;
+    background-color: white;
+    color: #007BFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 50px;
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('mainbody.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#visualization-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#graph-container {
+    flex: 5;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-right: 20px;
+    width: 40%;
+    height: 680px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+#graph-svg {
+    width: 100%;
+    height: 100%;
+}
+
+#controls {
+    flex: 4;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+#buttons, #preset-graphs, #algorithm-controls, #full-width {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#full-width {
+    width: 100%;
+}
+
+button, select {
+    padding: 8px 18px;
+    margin: 10px 0;
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #007BFF;
+    border-radius: 50px;
+    background-color: white;
+    color: #007BFF;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover, select:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+select {
+    margin-left: 10px;
+}
+
+#pseudo-code {
+    margin-top: 10px;
+}
+
+#pseudo-code pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#pseudo-code code {
+    display: block;
+}
+
+#pseudo-code code span {
+    display: block;
+    line-height: 0.3;
+}
+
+.highlight {
+    background-color: lightblue;
+    padding: 7px 8px;
+    margin: -7px -8px;
+    border-radius: 5px;
+}
